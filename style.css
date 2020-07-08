@@ -25,8 +25,19 @@ body {
 
 .titulo {
     color: #fff;
-    font-family: 'Fredoka One';
-    font-size:70px;
+    font-family:'Fjalla One', sans-serif;
+    font-size:xx-large;
+}
+
+.name_short {
+  color: aliceblue;
+  font-family: Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.director {
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .reproducir {
