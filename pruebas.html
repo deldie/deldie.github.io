@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Festival Aislados</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+
+    <div class="container w-100">
+        <div class="row d-flex align-self-center">
+            <div class="col-2 align-self-center">
+                <a href="http://elregaño.com"> <img src="img/festival.png" width="100"> </a>
+            </div>
+            
+            <div class="col-10 align-self-center">
+                <h1 class="titulo">Festival Aislados</h1>
+                <p class="subtitulo">Cortometrajes en cuarentena</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-around my-4">
+            <div class="col-5 col-lg-3 p-4 caratula">
+                <img src="cortos/astenia.png" width="250" alt="Avatar" class="image">
+                    <div class="middle d-flex flex-column">
+                        <div class="mb-2">
+                            <button type="button" class="btn reproducir video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/REFn8AXezTc" data-target="#myModal">
+                            Reproducir
+                            </button>
+                        </div>
+                        <div>
+                            <a class="typeform-share" href="https://form.typeform.com/to/Nb0etje8" data-mode="popup"  target="_blank"> Votar </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                        </div>
+                    </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+        
+        <div class="modal-body">
+  
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+  </div>
+
+<!-- Bootstrap core JS-->
+<script src="jquery-3.5.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

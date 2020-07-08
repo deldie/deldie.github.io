@@ -1,0 +1,128 @@
+body {
+    margin:2rem;
+    background: #000;
+}
+
+.modal-dialog {
+      max-width: 1000px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+.titulo {
+    color: #fff;
+    font-family: 'Fredoka One';
+    font-size:70px;
+}
+
+.reproducir {
+    background-color: #FF005C;
+    color: white;
+    text-align: center;
+    display:inline-block;
+    text-decoration:none;
+    cursor:pointer;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:16px;
+    line-height:40px;
+    text-align:center;
+    margin:0;
+    height:40px;
+    padding:0px 20px;
+    border-radius:20px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:bold;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+.votar {
+    background-color: #00B1FF;
+    color: black;
+    text-align: center;
+}
+
+.poster {
+    background-color: #fff;
+}
+
+.typeform-share {
+    display:inline-block;
+    text-decoration:none;
+    background-color:#00B8FF;
+    color:white;
+    cursor:pointer;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:16px;
+    line-height:40px;
+    text-align:center;
+    margin:0;
+    height:40px;
+    padding:0px 40px;
+    border-radius:20px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:bold;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+
+a:link {
+    color:white;
+    text-decoration:none;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .caratula:hover .image {
+    opacity: 0.3;
+  }
+  
+  .caratula:hover .middle {
+    opacity: 1;
+  }
+
+  .caratula {
+    position: relative;
+    width: 250px;
+  }
+
+  .subtitulo {
+      color: white;
+      margin: auto;
+  }
+  
