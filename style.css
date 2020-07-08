@@ -23,6 +23,13 @@ body {
   opacity:1;
 }
 
+.encabezado {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .titulo {
     color: #fff;
     font-family:'Fjalla One', sans-serif;
