@@ -173,10 +173,16 @@ a:link {
   }
 
   .playlist {
-    background-color: brown;
     height: 100%;
     background-image: url(img/patreon.jpg);
+    background-size: cover;
+    background-position: center;
     align-items: center;
+    
+  }
+
+  .playlist:hover {
+    background-color: black;
   }
 
   .playlist_2 {
