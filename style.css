@@ -211,4 +211,7 @@ a:link {
     .subtitulo {text-align: center;
       }
     .playlist_2 {font-size: 80%;}
+    .name_short {font-size: 80%;}
+    .director {font-size: 60% ;
+    }
   }
