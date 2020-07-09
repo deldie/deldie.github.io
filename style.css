@@ -1,8 +1,6 @@
 body {
-    margin:2rem;
     background: #000;
-    color: #fff;
-    max-width: 100%;
+    
 }
 
 .modal-dialog {
@@ -203,7 +201,9 @@ a:active {
   
   .seleccion {
     background-color: black;
-    margin: 0%;
+    margin:2rem;
+    color: #fff;
+    max-width: 100%;
   }
 
 
