@@ -230,6 +230,7 @@ a:active {
     .name_short {font-size: 80%;}
     .director {font-size: 60% ;}
     .text_footer{font-size: 60%;}
+    .modal-dialog {margin-top: 30%;}
   }
 
 
